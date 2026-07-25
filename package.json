@@ -1,0 +1,8 @@
+{
+  "name": "pagina-webb",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "cd \"Guia Web App Full Stack\" && npm run build"
+  }
+}

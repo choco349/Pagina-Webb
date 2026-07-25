@@ -1,0 +1,6 @@
+{
+  "installCommand": "cd \"Guia Web App Full Stack\" && npm install",
+  "buildCommand": "cd \"Guia Web App Full Stack\" && npm run build",
+  "outputDirectory": "Guia Web App Full Stack/dist",
+  "framework": "vite"
+}

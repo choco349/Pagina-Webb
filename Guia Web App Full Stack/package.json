@@ -3,9 +3,11 @@
   "version": "1.0.0",
   "type": "module",
   "scripts": {
+    "build": "vite build",
     "dev": "concurrently \"vite --host 127.0.0.1\" \"node server.js\"",
     "frontend": "vite --host 127.0.0.1",
-    "backend": "node server.js"
+    "backend": "node server.js",
+    "preview": "vite preview --host 127.0.0.1"
   },
   "dependencies": {
     "@vitejs/plugin-react": "^4.3.4",

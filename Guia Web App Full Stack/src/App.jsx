@@ -4,7 +4,7 @@ function App() {
   const [message, setMessage] = useState("");
 
   async function connectBackend() {
-    const response = await fetch("http://localhost:3000/api/hello");
+    const response = await fetch("/api/hello");
     const data = await response.json();
     setMessage(data.message);
   }

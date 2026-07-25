@@ -16,7 +16,7 @@ function App() {
         <h1>Mi primera app full stack</h1>
         <p>React conectado con Express.</p>
 
-        <button onClick={connectBackend}>Probar backend</button>
+        <button onClick={connectBackend}>Probar </button>
 
         {message && <div className="result">{message}</div>}
       </section>
